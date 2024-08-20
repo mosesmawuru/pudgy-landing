@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.font-content {
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.font-title {
+  font-family: "Luckiest Guy", cursive;
+}
+
+:root {
+  --primary-color: #24ff00;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff30;
+  border-radius: 10px;
+}
