@@ -53,6 +53,8 @@ export const TeamSection: React.FC = () => {
             navigation={true}
             modules={[Navigation]}
             className="mySwiper"
+            centeredSlides={true}
+            loop={true}
             breakpoints={{
               "@0.00": {
                 slidesPerView: 1,

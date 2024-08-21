@@ -6,6 +6,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

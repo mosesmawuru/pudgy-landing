@@ -24,8 +24,55 @@ export const TeamsContent = styled.div`
 
 export const TeamsSlider = styled.div`
   margin-top: 68px;
+  .swiper-slide {
+    transform: scale(0.9);
+    transition: all 0.3s;
+  }
+  .swiper-slide-active {
+    transform: scale(1);
+  }
+  .swiper-button-prev {
+    left: 33%;
+  }
+  .swiper-button-next {
+    right: 33%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    border: 2px solid #210a46;
+    &::after {
+      font-size: 24px;
+      color: #210a46;
+    }
+    &:hover {
+      background: #210a46;
+      &::after {
+        color: #fff;
+      }
+    }
+  }
+
+  @media screen and (max-width: 782px) {
+    .swiper-button-prev {
+      left: 23%;
+    }
+    .swiper-button-next {
+      right: 23%;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     margin-top: 40px;
+  }
+
+  @media screen and (max-width: 587px) {
+    .swiper-button-prev {
+      left: 0%;
+    }
+    .swiper-button-next {
+      right: 0%;
+    }
   }
 `;
 
