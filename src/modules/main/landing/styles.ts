@@ -57,6 +57,27 @@ export const LandingContent = styled.div`
     font-size: 24px;
     border-radius: 12px;
   }
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    a {
+      color: #210a46;
+      border-radius: 999px;
+      box-shadow: 0px 11px 40px 0px #00000040;
+      font-size: 24px;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      background: #fff;
+      justify-content: center;
+    }
+    & > :not(:first-child) {
+      margin-left: 12px;
+    }
+  }
   @media screen and (max-width: 768px) {
     h1 {
       font-size: 64px;
