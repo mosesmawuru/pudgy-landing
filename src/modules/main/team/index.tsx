@@ -54,7 +54,7 @@ export const TeamSection: React.FC = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </p>
-        <S.TeamsSlider data-aos="fade-up">
+        <S.TeamsSlider data-aos="fade-up">aaa
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
