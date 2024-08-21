@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
 import * as S from "./styles";
 
 export const CollectionSection: React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <S.CollectionWrapper id="collection">
-      <S.CollectionHeader>
+      <S.CollectionHeader data-aos="fade-up">
         <div>
           <h1 className="font-title">The collection</h1>
           <p className="font-content">
@@ -15,7 +21,7 @@ export const CollectionSection: React.FC = () => {
         <button className="font-content">View on Opensea</button>
       </S.CollectionHeader>
       <S.CollectionContent>
-        <div>
+        <div data-aos="fade-up">
           <img src="/assets/nfts/1.png" alt="" />
           <img src="/assets/nfts/6.png" alt="" />
           <img src="/assets/nfts/3.png" alt="" className="nft3" />
@@ -24,7 +30,7 @@ export const CollectionSection: React.FC = () => {
           <img src="/assets/nfts/2.png" alt="" />
           <img src="/assets/nfts/7.png" alt="" />
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src="/assets/nfts/8.png" alt="" className="nft8" />
           <img src="/assets/nfts/9.png" alt="" className="nft9" />
           <img src="/assets/nfts/10.png" alt="" />

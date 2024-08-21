@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import AOS from "aos";
 import { FaTwitter } from "react-icons/fa";
 import * as S from "./styles";
 
@@ -38,15 +39,22 @@ const teams = [
 ];
 
 export const TeamSection: React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <S.TeamsWrapper>
       <S.TeamsContent>
-        <h1 className="font-title">Meet the team</h1>
-        <p className="font-content">
+        <h1 className="font-title" data-aos="fade-up">
+          Meet the team
+        </h1>
+        <p className="font-content" data-aos="fade-up">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </p>
-        <S.TeamsSlider>
+        <S.TeamsSlider data-aos="fade-up">
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
