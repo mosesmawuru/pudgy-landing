@@ -41,6 +41,9 @@ export const TeamsSlider = styled.div`
   .swiper-button-prev,
   .swiper-button-next {
     border: 2px solid #210a46;
+    width: 40px;
+    height: 40px;
+
     &::after {
       font-size: 24px;
       color: #210a46;
