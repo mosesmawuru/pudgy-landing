@@ -19,10 +19,9 @@ export const LandingSection: React.FC = () => {
       <S.LandingContent data-aos="fade-up">
         <h1 className="font-title">Pudgy Bunnies</h1>
         <p className="font-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 8,888
-          tempor incididunt
+        6,000 Pudgy Bunnies coming soon to the Solana Blockchain
         </p>
-        <button className="font-content">Sold Out</button>
+        <button className="font-content">Coming soon</button>
         <div className="socials">
           <a
             href="https://discord.com/invite/pudgybunnies"
