@@ -8,15 +8,15 @@ import * as S from "./styles";
 const teams = [
   {
     image: "/assets/nfts/3.png",
-    role: "Artist",
-    name: "Johndoe",
-    twitter: "#",
+    role: "Community Bunny",
+    name: "Ethan",
+    twitter: "https://x.com/crypt_ethan",
   },
   {
     image: "/assets/nfts/4.png",
-    role: "Artist",
-    name: "Johndoe",
-    twitter: "#",
+    role: "Founder",
+    name: "aGod",
+    twitter: "https://x.com/agod_sol?s=21&t=-jIPDHhcIg88v4SKygTZbg",
   },
   {
     image: "/assets/nfts/5.png",
