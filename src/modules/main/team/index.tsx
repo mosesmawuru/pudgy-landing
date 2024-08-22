@@ -20,21 +20,21 @@ const teams = [
   },
   {
     image: "/assets/nfts/5.png",
-    role: "Artist",
-    name: "Johndoe",
-    twitter: "#",
+    role: "Co-Founder & Consulting",
+    name: "Sol.idified",
+    twitter: "https://x.com/sol_idified?s=21&t=gF5STtmCENVUEaIjjr5Vng",
   },
   {
     image: "/assets/nfts/8.png",
-    role: "Artist",
-    name: "Johndoe",
-    twitter: "#",
+    role: "Collaboration Manager",
+    name: "TheRealEmko",
+    twitter: "https://x.com/therealemko_",
   },
   {
     image: "/assets/nfts/9.png",
-    role: "Artist",
-    name: "Johndoe",
-    twitter: "#",
+    role: "Moderator at pudgy bunnies",
+    name: "Dutyvata",
+    twitter: "https://x.com/goldtymes?s=21",
   },
 ];
 
