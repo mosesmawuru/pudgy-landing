@@ -32,7 +32,7 @@ const teams = [
   },
   {
     image: "/assets/nfts/9.png",
-    role: "Moderator at pudgy bunnies",
+    role: "Moderator Bunny",
     name: "Dutyvata",
     twitter: "https://x.com/goldtymes?s=21",
   },
