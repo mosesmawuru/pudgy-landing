@@ -18,7 +18,7 @@ export const CollectionSection: React.FC = () => {
             eiusmod
           </p>
         </div>
-        <button className="font-content">View on Opensea</button>
+        <button className="font-content">Comming soon</button>
       </S.CollectionHeader>
       <S.CollectionContent>
         <div data-aos="fade-up">

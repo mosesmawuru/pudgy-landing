@@ -1,6 +1,6 @@
 import React from "react";
-import { FaTwitter } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa6";
+import { FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaDiscord, FaXTwitter } from "react-icons/fa6";
 import { SiOpensea } from "react-icons/si";
 import * as S from "./layout.styles";
 
@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
             <img src="/assets/logo.png" alt="logo" />
             <h1 className="font-title">Pudgy Bunnies</h1>
           </div>
-          <p className="font-content">@ 2021 Pudgy Bunnies</p>
+          <p className="font-content">@ 2024 Pudgy Bunnies</p>
           <p className="font-content">All rights reserved</p>
         </S.FooterCopyright>
         <S.FooterNavigation>
@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
             Team
           </a>
         </S.FooterNavigation>
-        <S.FooterNavigation>
+        {/* <S.FooterNavigation>
           <h2 className="font-title">About</h2>
           <a href="#" className="font-content">
             How to Buy
@@ -39,18 +39,37 @@ export const Footer: React.FC = () => {
           <a href="#" className="font-content">
             Opensea
           </a>
-        </S.FooterNavigation>
+        </S.FooterNavigation> */}
         <S.FooterNavigation>
           <h2 className="font-title">Connect</h2>
           <div>
-            <a href="#">
-              <FaTwitter />
-            </a>
-            <a href="#">
+            <a
+              href="https://discord.com/invite/pudgybunnies"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaDiscord />
             </a>
-            <a href="#">
-              <SiOpensea />
+            <a
+              href="https://t.me/+dulrwLwhjVMzZTQx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTelegram />
+            </a>
+            <a
+              href="https://x.com/pudgybunnies_"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaXTwitter />
+            </a>
+            <a
+              href="https://www.instagram.com/pudgybunnies"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram />
             </a>
           </div>
         </S.FooterNavigation>
