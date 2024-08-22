@@ -7,12 +7,6 @@ import * as S from "./styles";
 
 const teams = [
   {
-    image: "/assets/nfts/3.png",
-    role: "Community Bunny",
-    name: "Ethan",
-    twitter: "https://x.com/crypt_ethan",
-  },
-  {
     image: "/assets/nfts/4.png",
     role: "Founder",
     name: "aGod",
@@ -23,6 +17,12 @@ const teams = [
     role: "Co-Founder & Consulting",
     name: "Sol.idified",
     twitter: "https://x.com/sol_idified?s=21&t=gF5STtmCENVUEaIjjr5Vng",
+  },
+  {
+    image: "/assets/nfts/3.png",
+    role: "Community Bunny",
+    name: "Ethan",
+    twitter: "https://x.com/crypt_ethan",
   },
   {
     image: "/assets/nfts/8.png",
