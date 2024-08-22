@@ -32,7 +32,7 @@ export const LandingSection: React.FC = () => {
             <FaDiscord />
           </a>
           <a
-            href="https://t.me/+JES4VyxhELEzNDEx"
+            href="https://t.me/+dulrwLwhjVMzZTQx"
             target="_blank"
             rel="noreferrer"
           >
