@@ -19,7 +19,7 @@ export const CollectionSection: React.FC = () => {
             tuned to the roadmap unlocks for more details.
           </p>
         </div>
-        <button className="font-content">Comming soon</button>
+        <button className="font-content">Coming soon</button>
       </S.CollectionHeader>
       <S.CollectionContent>
         <div data-aos="fade-up">
