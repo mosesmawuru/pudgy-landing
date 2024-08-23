@@ -15,8 +15,9 @@ export const RoadmapSection: React.FC = () => {
           Roadmap
         </h1>
         <p className="font-content" data-aos="fade-up">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod
+          {
+            "Below is the official Pudgy Bunnies Roadmap. We uniquely integrated community growth by unlocking milestones (Roadmap phases) as we grow. You won't want to miss what is coming."
+          }
         </p>
         <img src="/assets/roadmap.jpg" alt="" data-aos="zoom-in" />
       </S.RoadmapContent>

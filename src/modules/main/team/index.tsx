@@ -51,8 +51,7 @@ export const TeamSection: React.FC = () => {
           Meet the team
         </h1>
         <p className="font-content" data-aos="fade-up">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod
+          Our core team is below. Come say hi in our Discord or Telegram!
         </p>
         <S.TeamsSlider data-aos="fade-up">
           <Swiper

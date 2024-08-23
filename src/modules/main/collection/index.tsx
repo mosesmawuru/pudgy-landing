@@ -14,8 +14,9 @@ export const CollectionSection: React.FC = () => {
         <div>
           <h1 className="font-title">The collection</h1>
           <p className="font-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod
+            Here are some sneak peeks of our digital art that doubles as both a
+            cute PFP and a serious leg up in the future of Pudgy Bunnies. Stay
+            tuned to the roadmap unlocks for more details.
           </p>
         </div>
         <button className="font-content">Comming soon</button>

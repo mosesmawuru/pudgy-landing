@@ -14,9 +14,10 @@ export const AboutSection: React.FC = () => {
         <div data-aos="fade-right">
           <h1 className="font-title">What are pudgy bunnies?</h1>
           <p className="font-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad <span>8,888</span> veniam, quis nostrud
+            Pudgy Bunnies is a Solana NFT project with <span>6,000</span> (TBD)
+            in supply. The project is based on a community-centric environment
+            with many great things in store. We are only just getting started.
+            See the roadmap below for our project's evolution as we grow!
           </p>
         </div>
         <div className="img-wrapper" data-aos="fade-left">
