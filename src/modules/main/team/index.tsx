@@ -42,6 +42,12 @@ const teams = [
     name: "Medios De Diseno",
     twitter: "https://x.com/mediosdiseno?s=21&t=d11XZncuW4V3o5v8uUnIwQ",
   },
+  {
+    image: "/assets/nfts/2.png",
+    role: "Web Developer",
+    name: "Kenzo Suzuki",
+    twitter: "https://x.com/hashi_7412",
+  },
 ];
 
 export const TeamSection: React.FC = () => {
