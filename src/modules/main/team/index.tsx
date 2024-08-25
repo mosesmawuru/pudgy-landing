@@ -36,6 +36,12 @@ const teams = [
     name: "Dutyvata",
     twitter: "https://x.com/goldtymes?s=21",
   },
+  {
+    image: "/assets/nfts/1.png",
+    role: "Artist",
+    name: "Medios De Diseno",
+    twitter: "https://x.com/mediosdiseno?s=21&t=d11XZncuW4V3o5v8uUnIwQ",
+  },
 ];
 
 export const TeamSection: React.FC = () => {
